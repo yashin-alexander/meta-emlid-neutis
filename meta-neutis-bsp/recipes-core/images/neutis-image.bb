@@ -50,12 +50,16 @@ IMAGE_INSTALL_append += "e2fsprogs-badblocks libcomerr libss libe2p libext2fs do
 
 IMAGE_INSTALL_append += "rng-tools"
 
+IMAGE_INSTALL_append += "openalpr"
+
 # Python
 IMAGE_INSTALL_append += "python"
 IMAGE_INSTALL_append += "python-dbus python-pygobject python-argparse"
 IMAGE_INSTALL_append += "python-distutils python-pkgutil python-netserver"
 IMAGE_INSTALL_append += "python-xmlrpc python-ctypes python-html python-json python-compile"
 IMAGE_INSTALL_append += "python-misc python-numbers python-unittest python-pydoc"
+
+IMAGE_INSTALL_append += "python-openalpr"
 
 # BSP
 IMAGE_INSTALL_append += "reflash-utility"
